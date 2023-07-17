@@ -4,7 +4,7 @@ import Head from 'next/head'
 import {
   AiFillLinkedin,
   AiFillGithub,
-} from 'react-icons/ai'
+} from 'react-icons/ai' 
 
 import {BsPersonVcardFill} from 'react-icons/bs'
 
