@@ -21,7 +21,7 @@ export default function Index() {
       <link rel="stylesheet" href="" />
     </Head>
 
-    <main className='mx-20'>
+    <main className='mx-32'>
       <section className='min-h-screen px-20'>
 
         <div className='grid grid-rows-8 grid-flow-col gap-4 text-center p-5 '>
@@ -36,7 +36,7 @@ export default function Index() {
             <div class="row-span-1 col-span-2 ...">
 
               <p className='text-lg leading-8 text-blue-800'>
-                Hi there!  I have experience with:
+                Hi there!  I am Jacob, software developer.  I have experience with:
               </p>
               <p className='text-md leading-8 text-gray-800'>
                 JavaScript (React, Node.js, Express, MongoDB, Jest), Typescript
@@ -65,18 +65,27 @@ export default function Index() {
             </div>
           </div>
 
-        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-500'>
+        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-500
+        '>
         <a target="_blank"
-        title="Github"
-        href='https://github.com/jtc27' >
-          <AiFillGithub/>
+        href='https://github.com/jtc27' 
+        className='px-2 py-2 border-2 border-white  hover:text-black hover:rounded hover:border-2 hover:border-gray-400'
+        >
+          <AiFillGithub />
         </a>
         <a target="_blank"
-        href='https://www.linkedin.com/in/jtc27' >
+        href='https://www.linkedin.com/in/jtc27' 
+        className='px-2 py-2 border-2  border-white  hover:text-blue-500 hover:rounded hover:border-2 hover:border-gray-400'
+        >
           <AiFillLinkedin />
         </a>
 
+        <a target="_blank"
+        href='https://www.linkedin.com/in/jtc27' 
+        className='px-2 py-2 border-2  border-white  hover:text-orange-500 hover:rounded hover:border-2 hover:border-gray-400'
+        >
           <BsPersonVcardFill/>
+        </a>
         </div>
 
       </section>

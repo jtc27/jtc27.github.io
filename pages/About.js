@@ -20,8 +20,8 @@ function About() {
       <link rel="stylesheet" href="" />
     </Head>
 
-    <main className='px-10'>
-      <section className='min-h-screen mx-20'>
+    <main className='mx-32'>
+      <section className='min-h-screen px-20'>
 
         <div className='grid grid-rows-8 grid-flow-col gap-4 text-center p-5'>
           <div class="row-span-5 ..."><Image src={about}  /></div>

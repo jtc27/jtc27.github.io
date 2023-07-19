@@ -23,7 +23,7 @@ export default function Index() {
       <link rel="stylesheet" href="" />
     </Head>
 
-    <main className='mx-20'>
+    <main className='mx-32'>
       <section className='min-h-screen px-20'>
       <p className='text-2xl text-black-700 font-medium text-center'>My Projects</p> 
 
