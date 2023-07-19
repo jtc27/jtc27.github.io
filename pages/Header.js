@@ -13,7 +13,7 @@ function Header() {
         text-white px-36 py-2 rounded-md ml-8
         bg-gradient-to-r from-blue-600 to-blue-700 tracking-wider opacity-90
         border-2 border-white
-        hover:border-gray-600 hover:opacity-100 hover:border-2 hover:font-semibold
+        hover:border-gray-500 hover:opacity-100 hover:border-2 hover:font-semibold
         '>
           home
         </Link>
@@ -35,7 +35,7 @@ function Header() {
         href='Projects' className='
         text-white px-8 py-2 rounded-md ml-8 border-2 border-white
         bg-gradient-to-r from-yellow-500 to-yellow-400 tracking-wider opacity-80
-        hover:border-gray-600 hover:opacity-100  
+        hover:border-gray-500 hover:opacity-100  
         '>
           projects
         </Link>
@@ -46,7 +46,7 @@ function Header() {
         href='/' className='
         text-white px-8 py-2 rounded-md ml-8 border-2 border-white
         bg-gradient-to-r from-cyan-500 to-teal-400 tracking-wider opacity-90
-        hover:border-gray-600 hover:opacity-100 hover:border-2  
+        hover:border-gray-500 hover:opacity-100 hover:border-2  
         '>
           resume
         </Link>

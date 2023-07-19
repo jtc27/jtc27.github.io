@@ -81,8 +81,9 @@ export default function Index() {
         </a>
 
         <a target="_blank"
-        href='https://www.linkedin.com/in/jtc27' 
+        href='public/JacobCho_CV.pdf' 
         className='px-2 py-2 border-2  border-white  hover:text-orange-500 hover:rounded hover:border-2 hover:border-gray-400'
+        download
         >
           <BsPersonVcardFill/>
         </a>
