@@ -43,7 +43,9 @@ function Header() {
 
       <li>
         <Link 
-        href='/' className='
+        href='JacobCho_CV.pdf' 
+        target='_blank'
+        className='
         text-white px-8 py-2 rounded-md ml-8 border-2 border-white
         bg-gradient-to-r from-cyan-500 to-teal-400 tracking-wider opacity-90
         hover:border-gray-500 hover:opacity-100 hover:border-2  

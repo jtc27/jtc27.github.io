@@ -6,11 +6,12 @@ import {
   AiFillGithub
 } from 'react-icons/ai'
 
-import {BsPersonVcardFill} from 'react-icons/bs'
+import {
+  BsPersonVcardFill
+} from 'react-icons/bs'
 
 import Image from 'next/image'
 import profile from '../public/profile.jpg'
-import Link from 'next/link'
 
 export default function Index() {
   return (
@@ -36,7 +37,7 @@ export default function Index() {
             <div class="row-span-1 col-span-2 ...">
 
               <p className='text-lg leading-8 text-blue-800'>
-                Hi there!  I am Jacob, software developer.  I have experience with:
+                Hi there!  I'm Jacob, a software developer.  I have experience with:
               </p>
               <p className='text-md leading-8 text-gray-800'>
                 JavaScript (React, Node.js, Express, MongoDB, Jest), Typescript
@@ -81,10 +82,9 @@ export default function Index() {
         </a>
 
         <a target="_blank"
-        href='public/JacobCho_CV.pdf' 
+        href='JacobCho_CV.pdf' 
         className='px-2 py-2 border-2  border-white  hover:text-orange-500 hover:rounded hover:border-2 hover:border-gray-400'
-        download
-        >
+        > 
           <BsPersonVcardFill/>
         </a>
         </div>

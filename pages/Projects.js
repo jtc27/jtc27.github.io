@@ -117,18 +117,27 @@ export default function Index() {
           </div>
 
         {/* SOCIAL MEDIA LINKS */}
-        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-500'>
+        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-500
+        '>
         <a target="_blank"
-        title="Github"
-        href='https://github.com/jtc27' >
-          <AiFillGithub/>
+        href='https://github.com/jtc27' 
+        className='px-2 py-2 border-2 border-white  hover:text-black hover:rounded hover:border-2 hover:border-gray-400'
+        >
+          <AiFillGithub />
         </a>
         <a target="_blank"
-        href='https://www.linkedin.com/in/jtc27' >
+        href='https://www.linkedin.com/in/jtc27' 
+        className='px-2 py-2 border-2  border-white  hover:text-blue-500 hover:rounded hover:border-2 hover:border-gray-400'
+        >
           <AiFillLinkedin />
         </a>
 
+        <a target="_blank"
+        href='JacobCho_CV.pdf' 
+        className='px-2 py-2 border-2  border-white  hover:text-orange-500 hover:rounded hover:border-2 hover:border-gray-400'
+        > 
           <BsPersonVcardFill/>
+        </a>
         </div>
 
       </section>
